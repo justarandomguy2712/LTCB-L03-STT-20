@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main(){
+    int n;
+    scanf("%d", &n);
+    int a[n];
+    for(int i = 0; i < n; i++){
+        scanf("%d", &a[i]);
+    }
+    int countduong = 0, sum1 = 0;
+    int countam = 0, sum2 = 0;
+    int sum3 = 0;
+    for(int i = 0; i < n; i++){
+        if(a[i] > 0){
+            countduong++;
+            sum1 += a[i];
+        }
+        if(a[i] < 0){
+            countam++;
+            sum2 += a[i];
+        }
+        sum3 += a[i];
+    }
+    if(countduong > 0){
+        printf("Ket qua trung binh duong la:%.2f\n", (float)sum1/countduong);
+    }else{
+        printf("0.00\n");
+    }
+    if(countam > 0){
+        printf("Ket qua trung binh am:%.2f\n", (float)sum2/countam);
+    }else{
+        printf("0.00\n");
+    }
+    printf("Ket qua trung binh cong ca mang:%.2f\n", (float)sum3/n);
+    printf("\nKet qua tong cua mang la: %d",sum3);
+    printf("\nKet qua tong am cua mang la: %d",sum2);
+    printf("\nKet qua tong duong cua mang la: %d",sum1);
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main (){
+	long long n;
+	printf("Hay Nhap 1 so:");
+	scanf("%d",&n);
+	printf("\n%lld",n*n);
+	printf("\n%lld",n*n*n);
+	printf("\n%lld",n*n*n*n);
+}

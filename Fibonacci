@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main (){
+	long long n;
+	scanf("%lld",&n);
+	
+	}
+	long long F[94];
+	F[0]=0;
+	F[1]=1;
+	for(int i=2;i<=n;i++){
+	    if(n>2){
+	    	F[i]=F[i-1]+F[i-2];
+		}
+	}
+	printf("%lld",F[n]);
+}

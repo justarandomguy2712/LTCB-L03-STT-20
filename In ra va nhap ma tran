@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main (){
+	int n,m;
+	scanf("%d%d",&n,&m);
+	int c[3][3] = {
+    {2, 2, 2},
+    {9, 3, 5},
+    {2, 5, 2}
+};
+	int a[n][m];
+	for(int i=0;i<n;i++){
+		for(int j=0;j<m;j++){
+			scanf("%d",&a[i][j]);
+		}
+	}
+	for(int i=0;i<n;i++){
+		for(int j=0;j<m;j++){
+			printf(" %d",a[i][j]);
+		}
+		printf("\n");
+	}
+  for(int i=0;i<3;i++){
+  	for(int j=0;j<3;j++){
+  		printf(" %d",c[i][j]);
+	  }
+	  printf("\n");
+  }
+}

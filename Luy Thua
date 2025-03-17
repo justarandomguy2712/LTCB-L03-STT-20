@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int LuyThua(int a,int b){
+	return (int)pow(a,b);
+}
+int main (){
+	int x,y,z;
+	scanf("%d%d",&x,&y);
+	z=LuyThua(x,y);
+	printf(" %d",z);
+}

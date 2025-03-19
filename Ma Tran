@@ -1,0 +1,82 @@
+#include <stdio.h> 
+void nhapmatran(int m, int n, int a[][100], int b[][100]) {
+    printf("ma tran a:\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            scanf("%d", &a[i][j]);
+        }
+    }
+
+    printf("ma tran b:\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            scanf("%d", &b[i][j]);
+        }
+    }
+}
+void tongmatran(int m, int n, int a[][100], int b[][100], int c[][100]) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            c[i][j] = a[i][j] + b[i][j];
+        }
+    }
+}
+void inramatrantong(int n, int m, int c[][100]) {
+    printf("Ma tran tong C:\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("%d ", c[i][j]);
+        }
+        printf("\n");
+    }
+}
+void nhapmatrantich(int x,int y,int z,int s[][100],int d[][100]){
+	printf("\nNhap ma tran s");
+	for(int i=0;i<x;i++){
+		for(int j=0;j<y;j++){
+			scanf("%d",&s[i][j]);
+		}
+	}
+	printf("\n Nhap ma tran d");
+	for(int i=0;i<y;i++){
+		for(int j=0;j<z;j++){
+			scanf("%d",&d[i][j]);
+		}
+	}
+}
+void matrantich(int x,int y,int z,int s[][100],int d[][100],int e[][100]){
+	for(int i=0;i<x;i++){
+		for(int j=0;j<z;j++){
+			e[i][j]=0;
+			for(int k=0;k<y;k++){
+				e[i][j]+=s[i][k]*d[k][j];
+			}
+		}
+	}
+}
+void inramatrantich(int x,int y,int z,int s[][100],int d[][100],int e[][100]){
+	for(int i=0;i<x;i++){
+		for(int j=0;j<z;j++){
+			printf("Tich 2 ma tran la: %d",e[i][j]);
+		}
+		printf("\n");
+	}
+}
+int main() {
+    int n, m;
+    printf("so hang va so cot cua ma tran: ");
+    scanf("%d%d", &n, &m);
+    int x,y,z;
+    printf("nhap ma tran tich");
+    scanf("%d%d%d",&x,&y,&z);
+
+    int a[100][100], b[100][100], c[100][100], s[100][100], d[100][100], e[100][100];
+
+    nhapmatran(n, m, a, b);
+    tongmatran(n, m, a, b, c);
+    inramatrantong(n, m, c);
+    nhapmatrantich(x,y,z,s,d);
+    matrantich(x,y,z,s,d,e);
+    inramatrantich(x,y,z,s,d,e);
+}
+

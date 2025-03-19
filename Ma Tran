@@ -55,9 +55,10 @@ void matrantich(int x,int y,int z,int s[][100],int d[][100],int e[][100]){
 	}
 }
 void inramatrantich(int x,int y,int z,int s[][100],int d[][100],int e[][100]){
+	printf("Tich 2 ma tran la: %d");
 	for(int i=0;i<x;i++){
 		for(int j=0;j<z;j++){
-			printf("Tich 2 ma tran la: %d",e[i][j]);
+			printf("%d ",e[i][j]);
 		}
 		printf("\n");
 	}
@@ -79,4 +80,3 @@ int main() {
     matrantich(x,y,z,s,d,e);
     inramatrantich(x,y,z,s,d,e);
 }
-

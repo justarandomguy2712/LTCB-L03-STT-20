@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+	int A,sothang;
+	scanf("%d%d",&A,&sothang);
+	float b=0.45;
+	for(int i=0;i<sothang;i++){
+		A +=A*b;
+	}
+	printf("%.2lf", (float)A);
+}

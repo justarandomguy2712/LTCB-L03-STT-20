@@ -1,0 +1,5 @@
+Nguyen Van A,Ha Noi,160,5,1.6E7
+Tran Van B,Hai Phong,180,7,1.82E7
+Nguyen Van A,Thanh Hoa,240,9,2.4E7
+Nguyễn Xuân Tùng,Thanh Hóa,8,9,800000.0
+Nguyễn Hoàng Hải,Nghệ An,9,123,900000.0

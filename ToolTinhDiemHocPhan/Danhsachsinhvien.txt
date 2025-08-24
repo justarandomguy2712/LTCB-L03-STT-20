@@ -1,0 +1,67 @@
+AT210218,Hoàng Quyết Thắng,8.0,9.0,CNTT01
+CT080265,Nguyễn Chiến Thắng,6.0,9.0,KTMT02
+DT040243,Hoàng Thùy Linh,7.75,6.5,KHMT03
+CT090322,Nguyễn Phương Mai,4.0,9.6,MMT02
+AT170214,Đỗ Nam Khánh,8.0,4.0,CNPM02
+AT210218,Hoàng Quyết Thắng,8.0,9.0,CNTT01
+CT080265,Nguyễn Chiến Thắng,6.0,9.0,KTMT02
+DT040243,Hoàng Thùy Linh,7.75,6.5,KHMT03
+CT090322,Nguyễn Phương Mai,4.0,9.6,MMT02
+AT170214,Đỗ Nam Khánh,8.0,4.0,CNPM02
+AT210521,Nguyễn Văn Tùng,6.0,8.0,KHMT02
+DS0212311,Trương Tấn Sang,10.0,8.0,AI02
+QTKD21321,Hoàng Văn Hà,7.0,8.0,BSM02
+CNTT322131,Nguyễn Bình Minh,4.0,8.0,IT02
+MAR1231121,Phan Thành Luân,9.0,8.0,MAR02
+BME321311,Trương Anh Đức,7.43,9.0,BME02
+CE021311,Nguyễn Gia Quang,6.5,9.2,CE01
+CE001,Nguyễn Gia Quang,6.5,9.2,CNMT 01
+BME001,Trần Thị Mai,7.0,8.5,Y sinh 03
+AUTO001,Ngô Văn Lâm,8.2,7.5,TĐH 01
+IT001,Phạm Minh Khôi,9.0,9.5,CNTT 02
+SE001,Lê Thị Thu Hà,6.8,8.1,Phần mềm 01
+ME001,Đỗ Quang Huy,7.6,6.9,Cơ điện 02
+EE001,Nguyễn Thị Yến,5.9,7.4,Điện tử 01
+DS001,Phan Đình Dũng,8.0,8.3,KHDL 01
+AI001,Vũ Đức Anh,9.5,9.6,AI 01
+ROB001,Lê Hồng Nhung,7.1,7.2,Robot 02
+BME002,Bùi Văn Sơn,6.3,6.7,Y sinh 03
+AUTO002,Trịnh Hoàng Hải,7.8,8.0,TĐH 01
+IT002,Nguyễn Thu Trang,8.4,9.1,CNTT 02
+SE002,Lương Minh Tâm,7.2,7.8,Phần mềm 01
+ME002,Nguyễn Văn Cường,6.4,5.9,Cơ điện 02
+EE002,Hồ Ngọc Diệp,8.7,9.3,Điện tử 01
+DS002,Trần Đức Hiếu,5.6,6.5,KHDL 01
+AI002,Hoàng Kim Ngân,9.2,9.4,AI 01
+ROB002,Đoàn Hữu Tài,6.9,7.3,Robot 02
+BME003,Vũ Thị Ngọc,7.5,6.8,Y sinh 03
+AUTO003,Nguyễn Trọng Hòa,7.0,8.9,TĐH 01
+IT003,Trần Hoàng Việt,6.6,6.4,CNTT 02
+SE003,Lý Thị Hằng,8.1,8.5,Phần mềm 01
+ME003,Lê Xuân Dương,7.7,7.6,Cơ điện 02
+EE003,Đào Minh Nhật,9.3,9.0,Điện tử 01
+DS003,Phạm Thị Linh,5.8,6.2,KHDL 01
+AI003,Hà Quang Phúc,8.6,9.1,AI 01
+ROB003,Võ Hồng Quân,7.3,7.7,Robot 02
+BME004,Nguyễn Bảo Châu,6.1,6.0,Y sinh 03
+AUTO004,Trần Nhật Long,8.0,8.2,TĐH 01
+IT004,Lê Văn Bình,9.1,8.9,CNTT 02
+SE004,Nguyễn Mỹ Hạnh,6.7,7.5,Phần mềm 01
+ME004,Đinh Văn Khánh,5.5,5.6,Cơ điện 02
+EE004,Bùi Minh Châu,7.9,8.4,Điện tử 01
+DS004,Phạm Đức Lộc,6.5,7.0,KHDL 01
+AI004,Trịnh Thị Phương,8.8,9.2,AI 01
+ROB004,Vũ Văn Tùng,7.4,7.1,Robot 02
+BME005,Lương Hồng Giang,6.0,6.3,Y sinh 03
+AUTO005,Nguyễn Văn Dũng,8.3,8.0,TĐH 01
+IT005,Trần Thị Hòa,9.4,9.6,CNTT 02
+SE005,Lý Quang Thịnh,7.6,7.2,Phần mềm 01
+ME005,Ngô Minh Anh,6.2,5.7,Cơ điện 02
+EE005,Phan Ngọc Ánh,8.5,9.0,Điện tử 01
+DS005,Bùi Thị Duyên,5.7,6.1,KHDL 01
+AI005,Đoàn Thanh Vân,9.0,9.3,AI 01
+ROB005,Trần Quốc Bảo,7.8,7.4,Robot 02
+BME006,Hà Minh Châu,6.3,6.6,Y sinh 03
+AUTO006,Lê Nhật Nam,8.9,8.7,TĐH 01
+IT006,Võ Thị Thu Trang,9.5,9.7,CNTT 02
+SE006,Nguyễn Tiến Đạt,7.0,7.9,Phần mềm 01

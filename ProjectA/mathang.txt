@@ -1,0 +1,26 @@
+true, Food, Pizza02, 196, 199000
+Drink, Pepsi02,100,18000
+Food, Noodles, 15, 900000 
+Drink, Coca21, 196, 199000
+Drink, Lavie02, 200, 10000
+Drink, Lavie02, 200, 10000
+Snack, Oreo01, 150, 5000
+Drink, Pepsi03, 300, 12000
+Food, Bread04, 100, 8000
+Fruit, Apple05, 250, 7000
+Drink, Coca06, 400, 11000
+Snack, Kitkat07, 180, 6000
+Food, Noodle08, 220, 9000
+Fruit, Banana09, 300, 6000
+Drink, Redbull10, 120, 15000
+Snack, Lays11, 200, 10000
+Food, Rice12, 500, 12000
+Fruit, Mango13, 180, 14000
+Drink, 7up14, 250, 10000
+Snack, Chocopie15, 170, 7000
+Food, Milk16, 200, 13000
+Fruit, Orange17, 280, 9000
+Drink, Sting18, 300, 12000
+Snack, Poca19, 220, 8000
+Food, Egg20, 400, 2000
+Fruit, Pineapple21, 150, 11000
